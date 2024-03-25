@@ -1,25 +1,25 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Nav = () => {
     return (
         <div className="navbar bg-base-100 text-xl   shadow-lg px-6 fixed z-10">
             <div className="flex-1">
-                <a className="btn btn-ghost  ml-10 font-bold text-2xl text-primary gap-0">Book <span className='text-secondary'>Vibe</span></a>
+               <Link to='/' className="btn btn-ghost  ml-10 font-bold text-2xl text-primary gap-0">Book <span className='text-secondary'>Vibe</span></Link>
             </div>
-            <div className="flex-none ">
-                <ul className="menu menu-horizontal px-80 font-bold text-xl  ">
+            <div className="flex-none gap-2 ">
+                <ul className="menu menu-horizontal px-80 font-bold text-xl hidden sm:flex items-center gap-5  ">
                    
-                    <Link to='/'  className='text-success'>
+                    <NavLink to='/'  className={({isActive})=> isActive? 'text-success font-bold': 'font-bold'}>
                         Home
-                    </Link>
-                    <Link to='/listedbooks'>
+                    </NavLink>
+                    <NavLink to='/listedbooks'  className={({isActive})=> isActive? 'text-success font-bold': 'font-bold'}>
                     Listed Books
-                    </Link>
-                  
-                    <li>
-                        <a>Pages to Read</a>
-                    </li>
+                    </NavLink>
+                    <NavLink to='/pagestoread'  className={({isActive})=> isActive? 'text-success font-bold': 'font-bold'}>
+                    Pages to Read
+
+                    </NavLink>
                     <li>
                         <a>Bonus</a>
                     </li>

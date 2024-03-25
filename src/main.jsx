@@ -6,21 +6,29 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import ListedBooks from './pages/ListedBooks.jsx'
 import PagestoRead from './pages/PagestoRead.jsx'
+import MainLayout from './layouts/MainLayout.jsx'
 
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home></Home>,
+    element: <MainLayout></MainLayout>,
+    children:[
+      {
+        path:'/',
+        element:<Home></Home>,
+      },
+      {
+        path: '/listedbooks',
+        element: <ListedBooks></ListedBooks>,
+      },
+      {
+        path: '/pagestoread',
+        element: <PagestoRead></PagestoRead>,
+      },
+    ]
   },
-  {
-    path: '/listedbooks',
-    element: <ListedBooks></ListedBooks>,
-  },
-  {
-    path: '/pagestoread',
-    element: <PagestoRead></PagestoRead>,
-  },
+
 ])
 
 
