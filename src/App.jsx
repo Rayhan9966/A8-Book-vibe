@@ -1,4 +1,5 @@
 
+
 import Home from "./pages/Home"
 import ListedBooks from "./pages/ListedBooks"
 import PagestoRead from "./pages/PagestoRead"
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-  <Home/>
+  <Home></Home>
  <ListedBooks></ListedBooks>
  <PagestoRead></PagestoRead>
     </>

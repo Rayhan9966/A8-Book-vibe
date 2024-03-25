@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
     return (
@@ -8,12 +9,14 @@ const Nav = () => {
             </div>
             <div className="flex-none ">
                 <ul className="menu menu-horizontal px-80 font-bold text-xl  ">
-                    <li className='text-success'>
-                        <a>Home</a>
-                    </li>
-                    <li>
-                        <a>Listed Books</a>
-                    </li>
+                   
+                    <Link to='/'  className='text-success'>
+                        Home
+                    </Link>
+                    <Link to='/listedbooks'>
+                    Listed Books
+                    </Link>
+                  
                     <li>
                         <a>Pages to Read</a>
                     </li>
