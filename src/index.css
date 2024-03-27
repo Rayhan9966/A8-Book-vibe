@@ -11,3 +11,73 @@
   line-height: 84px; /* 150% */
 
 }
+.text1{
+
+
+  color: #131313;
+font-family: "Playfair Display";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.btn1{
+  display: flex;
+padding: 11px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+  color: #328EFF;
+text-align: center;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 30px;
+background: rgba(50, 142, 255, 0.15);
+}
+.btn2{
+  display: flex;
+padding: 11px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+  color: #FFAC33;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 30px;
+background: rgba(255, 172, 51, 0.15);
+
+}
+.btn3{
+  display: flex;
+padding: 11px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  border-radius: 30px;
+  background: #23BE0A;
+}
+.btn4{
+  display: inline-flex;
+padding: 21px 28px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #23BE0A;
+}

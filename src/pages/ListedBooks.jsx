@@ -12,10 +12,14 @@ fetch('book.json')
     },[])
     
     return (
-        <div>
+        <div><br />
          
             <h1>book list page:{lists.length}</h1>
+            
             <div>
+                <div>
+                    
+                </div>
 {
     lists.map(list=><List key={list.bookId} list={list}></List>)
 }
