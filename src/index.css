@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.tex{
+  color: #131313;
+  font-family: "Playfair Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 84px; /* 150% */
+
+}

@@ -5,3 +5,9 @@
   text-align: center;
 }
 
+.img{
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  width: 318px;
+height: 394px;
+flex-shrink: 0;
+}
