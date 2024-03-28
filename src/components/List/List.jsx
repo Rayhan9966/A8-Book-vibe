@@ -5,7 +5,7 @@ const List = ({ list }) => {
 
     return (
         <div>
-           <div> <h2 className="text-xl font-semibold">Book</h2> </div>
+           {/* <div> <h2 className="text-xl font-semibold">Book</h2> </div> */}
             {/* <img src={image} alt="" /> */}
             <div className="flex flex-col border-4 rounded gap-2 max-w-7xl ml-6 p-6 space-y-4 sm:p-10 bg-white-400 text-black-100">
 

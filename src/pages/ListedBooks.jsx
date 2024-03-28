@@ -12,9 +12,10 @@ fetch('book.json')
     },[])
     
     return (
-        <div><br />
+        <div className='text-center font-bold text-5xl'>
+            <br /><br />
          
-            <h1>book list page:{lists.length}</h1>
+            <h1>Book List</h1>
             
             <div>
                 <div>
