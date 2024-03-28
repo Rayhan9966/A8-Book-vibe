@@ -23,7 +23,7 @@ fetch('book.json')
         <div className="" >
             <div className="hero min-h-screen bg-white-200 rounded ">
                 <div className="hero-content flex-col lg:flex-row-reverse gap-11 ">
-                    <div className=" bg-gray-200 bor"> <img src="/src/assets/pic.jpg" className=" max-w-sm rounded-lg" /></div>
+                    <div className=" bg-gray-200 bor"> <img src="https://i.postimg.cc/MHWvbH5L/pic.jpg" className=" max-w-sm rounded-lg" /></div>
                     <div>
                         <h1 className="text-6xl font-bold mr-8 tex">Books to freshen up <br />your bookshelf</h1><br />
 
@@ -53,7 +53,7 @@ fetch('book.json')
 					<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
 					<a rel="noopener noreferrer" href="#" className="text-xs tracking-wider uppercase hover:underline text-violet-400">Tag:<span className=" text-green-400"> #Adventure#Middle-earth</span></a>
 					<h3 className="flex-1 py-2 text-lg font-semibold leading-snug">The Great Gatsby</h3>
-					<div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
+					<div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-900">
 						<span>Classic</span>
 						<span>Rating: 4.8</span>
 					</div>
@@ -65,9 +65,9 @@ fetch('book.json')
 				</a>
 				<div className="flex flex-col flex-1 p-6">
 					<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
-					<a rel="noopener noreferrer" href="#" className="text-xs tracking-wider uppercase hover:underline text-violet-400">Tag:<span className=" text-green-400">  #Romance#Drama</span></a>
+					<a rel="noopener noreferrer" href="#" className="text-xs tracking-wider uppercase hover:underline text-violet-900">Tag:<span className=" text-green-400">  #Romance#Drama</span></a>
 					<h3 className="flex-1 py-2 text-lg font-semibold leading-snug">Robert kills</h3>
-					<div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
+					<div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-900">
 						<span>Dystopian</span>
 						<span>Rating: 3.5</span>
 					</div>
@@ -79,9 +79,9 @@ fetch('book.json')
 				</a>
 				<div className="flex flex-col flex-1 p-6">
 					<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
-					<a rel="noopener noreferrer" href="#" className="text-xs tracking-wider uppercase hover:underline text-violet-400">Tag: <span className=" text-green-400"> #Political#Social Commentary</span></a>
+					<a rel="noopener noreferrer" href="#" className="text-xs tracking-wider uppercase hover:underline text-violet-900">Tag: <span className=" text-green-900"> #Political#Social Commentary</span></a>
 					<h3 className="flex-1 py-2 text-lg font-semibold leading-snug">To Kill a Mockingbird</h3>
-					<div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
+					<div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-900">
 						<span>Fiction</span>
 						<span>Rating: 4.6</span>
 					</div>
@@ -95,7 +95,7 @@ fetch('book.json')
 					<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
 					<a rel="noopener noreferrer" href="#" className="text-xs tracking-wider uppercase hover:underline text-violet-400">Tag:<span className=" text-green-400">  #Social Issues#Coming of Age</span></a>
 					<h3 className="flex-1 py-2 text-lg font-semibold leading-snug">The Catcher in the Rye</h3>
-					<div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
+					<div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-900">
 						<span>Coming of Age</span>
 						<span>Rating: 4.7</span>
 					</div>
@@ -107,9 +107,9 @@ fetch('book.json')
 				</a>
 				<div className="flex flex-col flex-1 p-6">
 					<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
-					<a rel="noopener noreferrer" href="#" className="text-xs tracking-wider uppercase hover:underline text-violet-400">Tag:<span className=" text-green-400">  #Teenage Angst#Alienation</span></a>
+					<a rel="noopener noreferrer" href="#" className="text-xs tracking-wider uppercase hover:underline text-violet-900">Tag:<span className=" text-green-400">  #Teenage Angst#Alienation</span></a>
 					<h3 className="flex-1 py-2 text-lg font-semibold leading-snug">Pride and Prejudice</h3>
-					<div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
+					<div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-900">
 						<span>Romance</span>
 						<span>Rating: 4.8</span>
 					</div>
@@ -121,9 +121,9 @@ fetch('book.json')
 				</a>
 				<div className="flex flex-col flex-1 p-6">
 					<a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
-					<a rel="noopener noreferrer" href="#" className="text-xs tracking-wider uppercase hover:underline text-violet-400">Tag:<span className=" text-green-400">  #Regency Era#Satire</span></a>
+					<a rel="noopener noreferrer" href="#" className="text-xs tracking-wider uppercase hover:underline text-violet-900">Tag:<span className=" text-green-400">  #Regency Era#Satire</span></a>
 					<h3 className="flex-1 py-2 text-lg font-semibold leading-snug">The Hobbit</h3>
-					<div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-400">
+					<div className="flex flex-wrap justify-between pt-3 space-x-2 text-xs text-gray-900">
 						<span>Fantasy</span>
 						<span>Rating: 4.5</span>
 					</div>
