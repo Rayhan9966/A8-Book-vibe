@@ -20,11 +20,15 @@ const Nav = () => {
                     Pages to Read
 
                     </NavLink>
+                    {/* <NavLink to='/viewdetails'  className={({isActive})=> isActive? 'text-success font-bold': 'font-bold'}>
+                    Bonus
+
+                    </NavLink> */}
                     <li>
-                        <a>Bonus</a>
+                        <a></a>
                     </li>
                     <li>
-                        <a>Bonus</a>
+                        <a>Bonuss</a>
                     </li>
 
 

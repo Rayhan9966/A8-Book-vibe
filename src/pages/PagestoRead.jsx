@@ -28,10 +28,10 @@ fetch('book.json')
     },[])
     return (
         <div>
-            <h1> page:{chart.length}</h1>
+            <br />
 
             <BarChart
-      width={900}
+      width={1000}
       height={300}
       data={chart}
       margin={{

@@ -1,0 +1,81 @@
+[
+    {
+      "bookName": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "category": "Classic Literature",
+      "review": "A timeless classic that explores themes of love, wealth, and the American Dream.",
+      "tags": ["fiction", "romance", "1920s"],
+      "totalPages": 180,
+      "publisher": "Scribner",
+      "yearOfPublishing": 1925,
+      "rating": 4.5,
+      "image": "great_gatsby.jpg",
+      "buttons": ["Read", "Wishlist"]
+    },
+    {
+      "bookName": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "category": "Fiction",
+      "review": "A poignant story of racial injustice and moral growth in a small Southern town.",
+      "tags": ["novel", "race", "law"],
+      "totalPages": 281,
+      "publisher": "J. B. Lippincott & Co.",
+      "yearOfPublishing": 1960,
+      "rating": 4.8,
+      "image": "to_kill_a_mockingbird.jpg",
+      "buttons": ["Read", "Wishlist"]
+    },
+    {
+      "bookName": "1984",
+      "author": "George Orwell",
+      "category": "Dystopian Fiction",
+      "review": "A chilling portrayal of a totalitarian regime, exploring themes of surveillance and control.",
+      "tags": ["dystopia", "surveillance", "political"],
+      "totalPages": 328,
+      "publisher": "Secker & Warburg",
+      "yearOfPublishing": 1949,
+      "rating": 4.6,
+      "image": "1984.jpg",
+      "buttons": ["Read", "Wishlist"]
+    },
+    {
+      "bookName": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "category": "Romantic Fiction",
+      "review": "A witty and charming novel that explores societal expectations and the nature of love.",
+      "tags": ["romance", "social commentary", "regency"],
+      "totalPages": 279,
+      "publisher": "T. Egerton, Whitehall",
+      "yearOfPublishing": 1813,
+      "rating": 4.7,
+      "image": "pride_and_prejudice.jpg",
+      "buttons": ["Read", "Wishlist"]
+    },
+    {
+      "bookName": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "category": "Coming-of-Age Fiction",
+      "review": "A poignant portrayal of teenage angst and alienation in post-war America.",
+      "tags": ["coming-of-age", "teenage", "isolation"],
+      "totalPages": 277,
+      "publisher": "Little, Brown and Company",
+      "yearOfPublishing": 1951,
+      "rating": 4.4,
+      "image": "catcher_in_the_rye.jpg",
+      "buttons": ["Read", "Wishlist"]
+    },
+    {
+      "bookName": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "category": "Fantasy",
+      "review": "An enchanting adventure that follows Bilbo Baggins on his journey to reclaim the Lonely Mountain.",
+      "tags": ["fantasy", "adventure", "middle-earth"],
+      "totalPages": 310,
+      "publisher": "George Allen & Unwin",
+      "yearOfPublishing": 1937,
+      "rating": 4.9,
+      "image": "the_hobbit.jpg",
+      "buttons": ["Read", "Wishlist"]
+    }
+  ]
+  

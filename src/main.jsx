@@ -7,6 +7,7 @@ import Home from './pages/Home.jsx'
 import ListedBooks from './pages/ListedBooks.jsx'
 import PagestoRead from './pages/PagestoRead.jsx'
 import MainLayout from './layouts/MainLayout.jsx'
+// import HomeCard from './pages/HomeCard.jsx'
 
 
 const router = createBrowserRouter([
