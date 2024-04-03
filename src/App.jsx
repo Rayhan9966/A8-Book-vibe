@@ -1,16 +1,16 @@
+import './App.css'
+import Home from './Pages/Home/Home'
+import ListedBooks from './Pages/ListedBooks'
+import PagesToRead from './Pages/PagesToRead'
 
-
-import Home from "./pages/Home"
-import ListedBooks from "./pages/ListedBooks"
-import PagestoRead from "./pages/PagestoRead"
 function App() {
   
 
   return (
     <>
-  {/* <Home></Home> */}
- <ListedBooks></ListedBooks>
- <PagestoRead></PagestoRead>
+    <Home></Home>
+    <ListedBooks></ListedBooks>
+    <PagesToRead></PagesToRead>
     </>
   )
 }

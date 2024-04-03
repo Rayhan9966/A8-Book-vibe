@@ -1,9 +1,12 @@
+
+
+
 [
     {
-      "bookId": 1,
+      "id": 1,
       "bookName": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
-      "image": "https://i.postimg.cc/Hs1GpzRn/book3.jpg",
+      "bookImage": "https://i.postimg.cc/Hs1GpzRn/book3.jpg",
       "review": "A captivating tale of love, wealth, and tragedy set in the roaring twenties.",
       "totalPages": 218,
       "rating": 4.5,
@@ -14,10 +17,10 @@
       "yearOfPublishing": 1925
     },
     {
-      "bookId": 2,
+      "id": 2,
       "bookName": "Robert kills",
       "author": "George Orwell",
-      "image": "https://i.postimg.cc/fRQPNb39/book1.jpg",
+      "bookImage": "https://i.postimg.cc/fRQPNb39/book1.jpg",
       "review": "A chilling portrayal of a dystopian society where individualism is suppressed and surveillance is omnipresent.",
       "totalPages": 328,
       "rating": 4.8,
@@ -28,10 +31,10 @@
       "yearOfPublishing": 1949
     },
     {
-      "bookId": 3,
+      "id": 3,
       "bookName": "To Kill a Mockingbird",
       "author": "Harper Lee",
-      "image": "https://i.postimg.cc/PJGQ2KfK/Screenshot-2023-05-03-201700.jpg",
+      "bookImage": "https://i.postimg.cc/PJGQ2KfK/Screenshot-2023-05-03-201700.jpg",
       "review": "A powerful narrative that explores themes of racial injustice, morality, and empathy.",
       "totalPages": 324,
       "rating": 4.7,
@@ -42,10 +45,10 @@
       "yearOfPublishing": 1960
     },
     {
-      "bookId": 4,
+      "id": 4,
       "bookName": "The Catcher in the Rye",
       "author": "J.D. Salinger",
-      "image": "https://i.postimg.cc/59vGkvyV/book5.jpg",
+      "bookImage": "https://i.postimg.cc/59vGkvyV/book5.jpg",
       "review": "An iconic novel following the disillusioned youth, Holden Caulfield, as he navigates the complexities of adolescence.",
       "totalPages": 277,
       "rating": 4.4,
@@ -56,10 +59,10 @@
       "yearOfPublishing": 1951
     },
     {
-      "bookId": 5,
+      "id": 5,
       "bookName": "Pride and Prejudice",
       "author": "Jane Austen",
-      "image": "https://i.postimg.cc/bvJW6BDC/book4.jpg",
+      "bookImage": "https://i.postimg.cc/bvJW6BDC/book4.jpg",
       "review": "A timeless romance that humorously critiques the societal norms of the early 19th century.",
       "totalPages": 432,
       "rating": 4.6,
@@ -70,10 +73,10 @@
       "yearOfPublishing": 1813
     },
     {
-      "bookId": 6,
+      "id": 6,
       "bookName": "The Hobbit",
       "author": "J.R.R. Tolkien",
-      "image": "https://i.postimg.cc/HLTBX6vg/FB-Book-Cover-Fonts.png",
+      "bookImage": "https://i.postimg.cc/HLTBX6vg/FB-Book-Cover-Fonts.png",
       "review": "An enchanting adventure following Bilbo Baggins as he embarks on a quest to reclaim treasure guarded by the dragon Smaug.",
       "totalPages": 310,
       "rating": 4.9,

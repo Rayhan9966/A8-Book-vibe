@@ -1,23 +1,19 @@
-import React from 'react';
-import Nav from '../components/Nav';
-import Home from '../pages/Home';
-import ListedBooks from '../pages/ListedBooks';
-import PagestoRead from '../pages/PagestoRead';
-import { Outlet } from 'react-router-dom';
+import { Outlet } from "react-router-dom";
+import Navbar from "../Components/Navbar";
+
 
 const MainLayout = () => {
-    return (
-        <div>
-            <div className="h-16">
-                <Nav></Nav>
-            </div>
-            <Outlet></Outlet>
-            {/* <Home></Home>
-            <ListedBooks></ListedBooks>
-            <PagestoRead></PagestoRead> */}
-
-        </div>
-    );
+  return (
+    <div>
+      <div>
+        <Navbar></Navbar>
+      </div>
+      
+      <Outlet></Outlet>
+      
+      
+    </div>
+  );
 };
 
 export default MainLayout;
